@@ -1,0 +1,151 @@
+body {
+  background: #333;
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+body h1 {
+  font-size: 18px;
+}
+section {
+  width: 300px;
+  top: 20px;
+  left: 10px;
+  position: absolute;
+  background: #ccc;
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px #000;
+  border: 1px solid #fff;
+}
+section a {
+  display: block;
+  clear: left;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+section ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  clear: left;
+}
+section ul li {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background: #eee;
+  border-radius: 100px;
+  overflow: hidden;
+  float: left;
+  box-shadow: 0px 2px 2px 0px #999;
+}
+section ul li div img {
+  margin-top: -5px;
+}
+section ul li div p {
+  display: none;
+}
+section div#fm li {
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  background: #333;
+}
+section div#fm li:hover {
+  background: #000;
+}
+canvas {
+  position: relative;
+  left: 350px;
+  top: 30px;
+  fill: green;
+}
+ul#starting_11 {
+  position: absolute;
+  top: 30px;
+  left: 350px;
+}
+ul#starting_11 li {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  display: block;
+  opacity: 0.1;
+  border-radius: 100px;
+  box-shadow: 0px -2px 5px 1px #000;
+  border: 1px solid #666;
+  overflow: hidden;
+}
+ul#starting_11 li img {
+  margin-top: -5px;
+}
+ul#starting_11 li#pos1 {
+  top: 20px;
+  left: 265px;
+  position: absolute;
+}
+ul#starting_11 li#pos2 {
+  top: 120px;
+  left: 110px;
+  position: absolute;
+}
+ul#starting_11 li#pos3 {
+  top: 100px;
+  left: 210px;
+  position: absolute;
+}
+ul#starting_11 li#pos4 {
+  top: 100px;
+  left: 320px;
+  position: absolute;
+}
+ul#starting_11 li#pos5 {
+  top: 120px;
+  left: 415px;
+  position: absolute;
+}
+ul#starting_11 li#pos6 {
+  top: 250px;
+  left: 100px;
+  position: absolute;
+}
+ul#starting_11 li#pos7 {
+  top: 250px;
+  left: 210px;
+  position: absolute;
+}
+ul#starting_11 li#pos8 {
+  top: 250px;
+  left: 320px;
+  position: absolute;
+}
+ul#starting_11 li#pos9 {
+  top: 250px;
+  left: 430px;
+  position: absolute;
+}
+ul#starting_11 li#pos10 {
+  top: 400px;
+  left: 320px;
+  position: absolute;
+}
+ul#starting_11 li#pos11 {
+  top: 400px;
+  left: 210px;
+  position: absolute;
+}
+ul#starting_11 .highlight {
+  opacity: 0.7;
+}
+ul#starting_11 .selected {
+  opacity: 1;
+  z-index: 2;
+}
+ul#starting_11 .selected img {
+  z-index: -1;
+}
